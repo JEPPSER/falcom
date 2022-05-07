@@ -17,16 +17,16 @@ export default {
 .input-container {
   position: fixed;
   width: 80%;
-  height: 50px;
-  background-color: red;
+  height: 60px;
+  background-color: transparent;
   bottom: 0px;
   left: 20%;
   padding: 7px;
 }
 .input {
-  width: calc(100% - 14px);
+  width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #333;
   border-radius: 10px;
 }
 </style>
